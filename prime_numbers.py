@@ -16,5 +16,5 @@ def prime_num (num):
         			if (b % c == 0):
  				 			    isPrime = False
  		
- 		if isPrime:
+ 		if isPrime == True:
  			print(b)
