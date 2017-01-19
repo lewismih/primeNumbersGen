@@ -9,19 +9,17 @@ def prime_num (num):
     print ("Not a Prime number.")
  	
   else:
+ 		num1 = num
  		for b in range(2, num + 1):
- 			num1 = num
  			isPrime = True
- 			
- 			
+ 			 			
  			for c in range (2, b):
         			if (b % c == 0):
- 				 			    isPrime = False
- 		
- 
- 		
+        				isPrime = False
+  		
  		if isPrime == True:
- 			print(b)
+ 			print("%s is a prime number" % b)
+ 			
  		else:
- 			print (num1)
- 			print ("Not a Prime number.")
+ 			print ("%s is NOT a Prime number" % num1)
+ 			
