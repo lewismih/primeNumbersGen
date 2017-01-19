@@ -1,4 +1,4 @@
-# prime_test
+# Prime numbers Tests
 import unittest
 
 from prime_numbers import prime_num
